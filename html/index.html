@@ -1,58 +1,565 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title> goessinger.eu | The private webpage of Paul Gössinger | eBusiness, eCommerce, Consulting, Politics, Compliance, Management, MBA, IT, etc. </title> 
-<LINK href="paul.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" type="image/png" href="img/favicon.png">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="keywords" content="Paul, Paul Georg, Gössinger, Paul, Gössinger, Digitalisierung, Startup, CDO, BayWa, Strategy, IT, Informations Technologie, Consultant, Beratert, Red Hat, RHEL, Satellite Server, Cluster, Puppet, Solaris, Windows, Python, Bash, KSH, project management, experience, mysql, access, OpenBSD, NetBSD, FreeBSD, RHEV, KVM, Xen, Virtualization, VMWare, Apache, Tomcat, JBoss, RPM, firewall, iptables, LMU, Ludwig-Maximilians Universität, HTML, PHP, networking, team lead, Munich Venture Summit, MVS, Performer of the year, award, database, service desk, help desk, helpdesk, system administrator, DAB Bank, Self employed, Selbstständig, Compliance, E-Learning, Machine Learning, Business Partner Screening, Compliance Management System, LMS, iSpring">
-<meta name="date" content="2014-04-21T08:49:37+02:00">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>goessinger.eu | When technology meets human needs, great things can be accomplished.</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 </head>
 
-<body id=normal>
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-<div id=page>
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-<div id=main>
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-<div id=header>
-<p id=contact>
-Paul Gössinger
-</br>
-<a href="mailto:Paul@Goessinger.eu" title="Paul@Goessinger.eu"><img src="img/email_32.png" alt="Email" /></a>
-<a href="https://www.facebook.com/goessinger.paul" title="Paul Gössinger @ Facebook" target="_blank"><img src="img/facebook_32.png" alt="Facebook"/></a>
-<a href="https://www.xing.com/profile/Paul_Goessinger" title="Paul Gössinger @ Xing" target="_blank"><img src="img/xing_32.png" alt="Xing" /></a>
-<a href="https://de.linkedin.com/pub/paul-g%C3%B6ssinger/3b/a07/392" title="Paul Gössinger @ LinkedIn" target="_blank"><img src="img/linkedin_32.png" alt="LinkedIn" /></a>
-<a href="https://plus.google.com/u/0/109135265322459449773/posts" title="Paul Gössinger @ Google+" target="_blank"><img src="img/google_32.png" alt="Google" /></a>
-<a href="https://github.com/faulpaul" title="Paul Gössinger @ GitHub" target="_blank"><img src="img/github_32.png" alt="GitHub" /></a>
-</p>
-</div>
-<hr>
-<p id=maintext> Hi, my name is Paul and I work as head of eBusiness at <a href="http://baywa.de">BayWa AG</a>.
-My main focus is on innovation and digitalization. Let's get the company ready to tackle the next 95+ years!
-Previously I worked as a corporate strategy project manager and compliance manager after many years in different IT positions
-(“manager UNIX systems” @ <a href="http://dab-bank.de">DAB Bank AG</a>, “IT consultant” @ <a href="http://redhat.de">Red Hat</a>). </p>
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-<p id=maintext>I have a master’s degree (MBA) from the <a href="http://munich-business-school.de">Munich Business School</a> in "Business Administration"
-and a magister in political science from the <a href="http://lmu.de">Ludwig-Maximilians Universität</a> in Munich.
-I finished my Abitur (~A-Levels) at <a href="http://www.gymtutzing.de/"> Gymnasium Tutzing</a>.</p>
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#about">About Me</a></li>
+					<li><a href="#skills">Core Skills</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#numbers">Numbers</a></li>
+					<!-- <li><a href="#birding">Birding</a></li> -->
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
 
-<p id=maintext> I am also an independent local councilor in my home town <a href="http://www.bernried.de/"> Bernried</a>
-for an independent electoral list. See <a href="http://www.uefw-bernried.de/"> ÜFW</a> (Überparteiliche Freie Wähler) for more information.</p>
+			</div>
+		</nav>
+		<!-- /Nav -->
 
-<p id=maintext>In my spare time I like to backpack through far away countries, watch <strong>birds</strong> (you can find my sightings on <a href="https://ornitho.de/">ornitho.de</a> or <a href="https://ebird.org/">ebird.org</a>),
- hiking in the mountains or spend time on <a href="https://www.coursera.org/">coursera</a> to learn new things.</p>
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
 
-<p>You can download my full CV in <a href="Lebenslauf_de.pdf">German</a> or <a href="Lebenslauf_engl.pdf">English</a></p>
-<hr>
-<strong>See my target species in: <a href="http://birding.goessinger.eu/germany.html">Germany</a> | <a href="http://birding.goessinger.eu/europe.html">Europe</a> | <a href="http://birding.goessinger.eu/oman.html">Oman</a> | <a href="http://birding.goessinger.eu/israel.html">Israel</a></strong>
-</div>
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Paul Gössinger</h1>
+							<p class="white-text">When technology meets human needs, great things can be accomplished.
+							</p>
+						</div>
+					</div>
+					<!-- /home content -->
 
-<div id=pic>
-<img src="img/Paul.BW.jpg" alt="Paul Gössinger" />
-</div>
-<div style="clear: both"></div>
-</div>
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- about me content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">About Me</h2>
+					</div>
+					<p>Hi, my name is Paul and I work as head of eBusiness at <a href="http://baywa.de">BayWa AG</a>. My main focus is on innovation and digitalization. Let's get the company ready to tackle the next 95+ years!</p>
+					<p>Previously I worked as a corporate strategy project manager and compliance manager after many years in different IT positions (“manager UNIX systems” @ <a href="http://dab-bank.de">DAB Bank AG</a>, “IT consultant” @ <a href="http://redhat.de">Red Hat</a>).</p>
+					<p>I have a master’s degree (MBA) from the <a href="http://munich-business-school.de">Munich Business School</a> in "Business Administration" and a magister in political science from the <a href="http://lmu.de">Ludwig-Maximilians-Universität</a> in Munich. I finished my Abitur (~A-Levels) at <a href="http://www.gymtutzing.de/"> Gymnasium Tutzing</a>.</p>
+					<p>I am also an independent local councilor in my home town <a href="http://www.bernried.de/"> Bernried</a> for an independent electoral list. See <a href="http://www.uefw-bernried.de/"> ÜFW</a> (Überparteiliche Freie Wähler) for more information.</p>
+					<p>In my spare time I like to backpack through far away countries, watch <a href="#birding">birds</a>, hiking in the mountains or spend time on <a href="https://www.coursera.org/">coursera</a> to learn new things.</p>
+					<p>You can download my full CV in <a href="dl/Lebenslauf_de.pdf">German</a> or <a href="dl/Lebenslauf_engl.pdf">English</a></p>
+				</div>
+				<!-- /about me content -->
+
+				<!-- image -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/paul.jpg" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Paul Gössinger</span>
+						<h3>Pressefoto</h3>
+						<div class="work-link">
+							<a href="#"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/paul.jpg"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /image -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+	<!-- Core Skills -->
+	<div id="skills" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Core Skills</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-heart"></i>
+						<h3>Leadership</h3>
+						<p>“You can easily judge the character of others by how they treat those who can do nothing for them or to them.” </br> - Malcolm S. Forbes </br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-diamond"></i>
+						<h3>Self-motivation</h3>
+						<p>"Do or do not, there is no try." </br> - Yoda </br></br></br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-star"></i>
+						<h3>Strategy</h3>
+						<p>“The essence of strategy is choosing what not to do.” </br> - Michael Porter </br></br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-rocket"></i>
+						<h3>Startup environment</h3>
+						<p>“You need three things to create a successful startup: to start with good people, to make something customers actually want, and to spend as little money as possible.” </br> - Paul Graham</p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-cogs"></i>
+						<h3>Project Managment</h3>
+						<p>"Plans are worthless. Planning is essential." </br> - Dwight D. Eisenhower </br></br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-fast-forward"></i>
+						<h3>Agile & SCRUM</h3>
+						<p>“The agile way is more adapt to changes but shall not lose the sight of big picture.” </br> - Pearl Zhu </br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-flask"></i>
+						<h3>Internet of Things</h3>
+						<p>“Everything that can be automated will be automated” </br> - Robert Cannon </br></br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-pencil"></i>
+						<h3>Coding</h3>
+						<p>“Without requirements or design, programming is the art of adding bugs to an empty text file.” </br> -  Louis Srygley </br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+
+				<!-- Skill -->
+				<div class="col-md-4 col-sm-6">
+					<div class="service">
+						<i class="fa fa-industry"></i>
+						<h3>IT Infrastructure</h3>
+						<p>"How did you know so much about computers?” </br> Grace Hopper - “I didn’t, it was the first one” </br></br></br></p>
+					</div>
+				</div>
+				<!-- /Skill -->
+				
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+	<!-- Portfolio -->
+	<div id="portfolio" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Portfolio</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/BOW.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>BayWa Online Welt</span>
+						<h3>-</br> the digital platform for farmers</h3>
+						<div class="work-link">
+							<a href="http://baywa.de/shop/"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/BOW.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/Handelskraft2018.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Keynote</span>
+						<h3>- </br> Handelskraft 2018 (BMW Welt in Munich)</h3>
+						<div class="work-link">
+							<a href="https://youtu.be/VzaZwQIvEY0"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/Handelskraft2018.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/BirdingScript.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Birding Scripts</span>
+						<h3> - </br> where should you go birding today?</h3>
+						<div class="work-link">
+							<a href="http://birding.goessinger.eu/"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/BirdingScript.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/AIL.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Agro Innovation Lab</span>
+						<h3>Mentor in the AIL, Agro the innovation platform of BayWa & RWA, two of the most important players in the global agricultural industry. </h3>
+						<div class="work-link">
+							<a href="https://www.agroinnovationlab.com/"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/AIL.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/SCE.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>Strascheg Award</span>
+						<h3>- </br> jury member for the "Strascheg Center for Entrepreneurship"</h3>
+						<div class="work-link">
+							<a href="http://www.sce.de/strascheg-award.html"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/SCE.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+				<!-- Work -->
+				<div class="col-md-4 col-xs-6 work">
+					<img class="img-responsive" src="./img/IoT.png" alt="">
+					<div class="overlay"></div>
+					<div class="work-content">
+						<span>IoT devices</span>
+						<h3>- </br> measurement device for silos</h3>
+						<div class="work-link">
+							<a href="http://baywa.de/shop/"><i class="fa fa-external-link"></i></a>
+							<a class="lightbox" href="./img/IoT.png"><i class="fa fa-search"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- /Work -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Portfolio -->
+
+	<!-- Numbers -->
+	<div id="numbers" class="section sm-padding">
+
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background2.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-lightbulb-o"></i>
+						<h3 class="white-text"><span class="counter">13</span>+</h3>
+						<span class="white-text">Years of experience</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-trophy"></i>
+						<h3 class="white-text"><span class="counter">2</span></h3>
+						<span class="white-text">Awards won</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-map-o"></i>
+						<h3 class="white-text"><span class="counter">40</span>+</h3>
+						<span class="white-text">Countries visited</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+				<!-- number -->
+				<div class="col-sm-3 col-xs-6">
+					<div class="number">
+						<i class="fa fa-binoculars"></i>
+						<h3 class="white-text"><span class="counter">+700</span></h3>
+						<span class="white-text">Species of bird seen</span>
+					</div>
+				</div>
+				<!-- /number -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Numbers -->
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>0049 175 722 3506</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>paul@goessinger.eu</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>82347 Bernried</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="https://www.facebook.com/goessinger.paul"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://www.xing.com/profile/Paul_Goessinger"><i class="fa fa-xing"></i></a></li>
+						<li><a href="https://plus.google.com/u/0/109135265322459449773/posts"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://de.linkedin.com/pub/paul-g%C3%B6ssinger/3b/a07/392"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://github.com/faulpaul"><i class="fa fa-github"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2017. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
